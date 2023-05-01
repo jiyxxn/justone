@@ -1,0 +1,267 @@
+* {
+  box-sizing: border-box;
+}
+
+
+
+html,body, div, a, span, img, p, select {
+  display: block;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  text-decoration: none;
+  font-size: 10pt;
+}
+
+body {
+  position: relative;
+  clear: both;
+  margin-top: 10px;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+.pc_all {
+  width: 1920px;
+}
+
+header {
+  position: relative;
+  clear: both;
+  width: 1400px;
+  margin: 0 auto;
+  height: 100px;
+  /* background: pink; */
+
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+  .top_left {
+    position: relative;
+    float: left;
+    width: 400px;
+    height: 100px;
+
+    display: flex;
+    flex-flow: column nowrap;
+  }
+
+      /* 좌측 상단 Global */
+      .top_left_up {
+        position: relative;
+        float: left;
+        width: 400px;
+        height: 50px;
+        /* background: yellow; */
+
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: center;
+      }
+
+            .top_left_up > select {
+              appearance: none;
+              outline: none;
+              width: 150px;
+              height: 30px;
+              padding-left: 20px;
+              border: solid #2b2b2b70 1px;
+              background: url(./../images/expand_more.png) 93% no-repeat;  /* select 버튼 이미지 */
+              border-radius: 5px;
+              font-family: 'Montserrat', sans-serif;
+            }
+
+            /* 인스타그램 이미지 */
+            .top_left_up a:nth-child(2) {
+              margin-left: 40px;
+            }
+
+            /* 소셜 로그인 이미지 */
+            .top_left_up a {
+              margin-left: 20px;
+            }
+
+    /* 헤더 상단 양쪽 공백 */
+      .blank {
+        width: 400px;
+        height: 50px;
+      }
+
+  
+  .center_logo {
+    position: relative;
+    float: left;
+    width: 600px;
+    height: 100px;
+    margin-top: -10px;
+  }
+
+  .top_right {
+    position: relative;
+    float: left;
+    width: 400px;
+    height: 50px;
+
+    display: flex;
+    flex-flow: column nowrap;
+  }
+
+      /* 회원가입 ~  마이페이지 */
+      .link_text {
+        position: relative;
+        float: left;
+        height: 50px;
+
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: center;
+        justify-content: end;
+        margin-top: 10px;
+      }
+
+          .link_text > a {
+            color: #262626;
+            margin-right: 20px;
+          }
+
+/* 메뉴바, 메인이미지 상하단 가로로 긴 공백 */
+.blank_all {
+  position: relative;
+  clear: both;
+  width: 1400px;
+  margin: 0 auto;
+  height: 15px;
+}
+
+/* 메뉴바 */
+.menu_bar {
+  position: relative;
+  clear: both;
+  width: 1400px;
+  margin: 0 auto;
+  height: 30px;
+
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+    .menu_bar > a {
+      position: relative;
+      float: left;
+      width: 120px;
+
+      text-align: center;
+      color: #262626;
+      font-family: 'Montserrat', sans-serif;
+    }
+
+  .main_img {
+    width: 100vw;
+  }
+
+  .section_row_1 {
+    width: 1400px;
+    height: 480px;
+    margin: 0 auto;
+    margin-top: 150px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+  }
+
+    .section_row_1 span {
+      text-align: center;
+      font-size: 13pt;
+      color: #262626;
+    }
+
+        .section_row_1 span:nth-child(2) {
+          margin-top: 15px;
+        }
+
+    #row_title_1 {
+      width: 1400px;
+      margin: 0 auto;
+      font-size: 30pt;
+      text-align: center;
+      margin-top: 100px;
+      margin-bottom: 50px;
+      /* background-color: pink; */
+    }
+
+
+    .section_row_2 {
+      width: 1400px;
+      height: 550px;
+      margin: 0 auto;
+      
+      display: flex;
+      flex-flow: row nowrap;
+      justify-content: space-between;
+    }
+
+    .row_image_2 {
+      display: flex;
+      flex-flow: column nowrap;
+
+    }
+
+      .color_row {
+        display: flex;
+        flex-flow: row nowrap;
+
+        margin-top: 15px;
+      }
+
+          .color_row > img {
+            margin-right: 5px;
+          }
+
+      .price_row {
+        height: 30px;
+        line-height: 30px;
+        display: flex;
+        flex-flow: row nowrap;
+        margin-bottom: 5px;
+      }
+
+          .price_row span {
+            margin-right: 10px;
+          }
+
+          .price_text {
+            padding-bottom: 5px;
+            font-size: 13pt;
+            font-weight: 600;
+          }
+
+          .discount_text {
+            margin-right: 0px; /*불필요한 우측 마진 제거*/
+            font-size: 12pt;
+            font-weight: 600;
+            color: rgb(255, 132, 0);
+          }
+
+      .section_row_2 span {
+        color: #262626;
+      }
+
+      .product_name {
+        margin-top: 25px;
+        font-size: 11pt;
+        font-weight: 500;
+      }
+
+      .size_text > span {
+        margin-top: 5px;
+        margin-bottom: 5px;
+        font-size: 9pt;
+        color: #ababab;
+      }
+
+      
+
+
