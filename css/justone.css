@@ -416,12 +416,14 @@ header {
                 color: rgb(190, 131, 190);
               }
 
-        .m_main_img {
-          position: relaitve;
-          clear: both;
-
-          width: 340px;
-          margin: 0 auto;
+      .m_main_img {
+        position: relaitve;
+        clear: both;
+      }
+      
+        .m_main_img > img {
+          width: 100vw;
+          overflow: hidden;
         }
         
         .m_title {
@@ -506,14 +508,17 @@ header {
           }
 
 
-
       .m_main_img_2 {
         position: relative;
         clear: both;
-        width: 340px;
-        margin: 0 auto;
+
         margin-bottom: 30px;
       }
+      
+        .m_main_img_2 > img {
+          width: 100vw;
+          overflow: hidden;
+        }
 
 
 
