@@ -309,8 +309,9 @@ header {
   }
 
   header {
-    width: 450px;
+    width: 340px;
     height: 240px;
+    margin: 0 auto;
     margin-bottom: 15px;
     display: flex;
     flex-flow: column nowrap;
@@ -320,7 +321,7 @@ header {
       .m_top_row_1 {
         position: relative;
         clear: both;
-        width: 400px;
+        width: 340px;
         margin: 0 auto;
         height: 30px;
 
@@ -334,7 +335,7 @@ header {
         .m_top_row_1 > select {
           appearance: none;
           outline: none;
-          width: 100px;
+          width: 90px;
           height: 25px;
           padding-left: 5px;
           border: solid #2b2b2b70 1px;
@@ -357,7 +358,7 @@ header {
         #m_logo {
           position: relative;
           clear: both;
-          width: 450px;
+          width: 340px;
           height: 80px;
 
           display: flex; /*로고 가운데 정렬 */
@@ -367,7 +368,7 @@ header {
         }
 
         .m_menu_bar_1 {
-          width: 450px;
+          width: 340px;
           height: 40px;
           background-color: rgb(252, 246, 239);
 
@@ -387,7 +388,7 @@ header {
             }
 
         .m_menu_bar_2 {
-          width: 450px;
+          width: 340px;
           height: 90px;
           margin-top: 15px;
           display: flex;
@@ -395,7 +396,7 @@ header {
         }
 
             .m_menu_bar_2 li {
-              width: 150px;
+              width: 113px;
               height: 30px;
               line-height: 30px;
               /* background-color: aquamarine; */
@@ -415,19 +416,27 @@ header {
                 color: rgb(190, 131, 190);
               }
 
+        .m_main_img {
+          position: relaitve;
+          clear: both;
+
+          width: 340px;
+          margin: 0 auto;
+        }
         
         .m_title {
           position: relative;
           clear: both;
-          width: 450px;
+          width: 340px;
           height: 100px;
+          margin: 0 auto;
           line-height: 100px;
           text-align: center;
           letter-spacing: 0.1em;
         }
 
         .m_product_box {
-          width: 400px;
+          width: 340px;
           height: 400px;
           /* background-color: pink; */
           margin: 0 auto;
@@ -446,9 +455,10 @@ header {
             }
 
       .product_name {
+        width: 160px;
         margin-top: 15px;
-        font-size: 10pt;
-        font-weight: 500;
+        font-size: 0.9em;
+        font-weight: 600;
       }
 
       .size_text > span {
@@ -458,25 +468,28 @@ header {
         color: #ababab;
       }
 
+      .price_row {
+        width: 160px;
+      }
       
-      .price_text {
-        padding-bottom: 5px;
-        font-size: 11pt;
-        font-weight: 600;
-      }
+          .price_text {
+            padding-bottom: 5px;
+            font-size: 14px;
+            font-weight: 600;
+          }
 
-      .discount_text {
-        margin-right: 0px; /*불필요한 우측 마진 제거*/
-        font-size: 11pt;
-        font-weight: 600;
-        color: rgb(255, 132, 0);
-      }
+          .discount_text {
+            margin-right: 0px; /*불필요한 우측 마진 제거*/
+            font-size: 10pt;
+            font-weight: 600;
+            color: rgb(255, 132, 0);
+          }
 
       .m_main_img_2 {
         position: relative;
         clear: both;
-        width: 450px;
-        height: 300px;
+        width: 340px;
+        margin: 0 auto;
         margin-bottom: 30px;
       }
 
