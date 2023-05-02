@@ -510,7 +510,7 @@ header {
       }
 
         .m_price_row span {
-          width: 60px;
+          width: 70px;
           height: 20px;
           /* background-color: pink; */
           text-align: left;
@@ -521,19 +521,19 @@ header {
         }
       
           .price_text {
-            width: 60px;
+            width: 70px;
             height: 20px;
             font-size: 13px;
             font-weight: 600;
           }
 
           .discount_text {
-            width: 50px;
+            width: 40px;
             height: 20px;
             line-height: 20px;
             margin-right: 0px; /*불필요한 우측 마진 제거*/
             margin-left: 2px;
-            font-size: 15px;
+            font-size: 14px;
             font-weight: 600;
             color: rgb(255, 132, 0);
           }
