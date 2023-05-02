@@ -309,19 +309,20 @@ header {
   }
 
   header {
-    width: 340px;
+    width: 100vw;
     height: 240px;
     margin: 0 auto;
     margin-bottom: 15px;
     display: flex;
     flex-flow: column nowrap;
+    align-items: center;
   }
 
 
       .m_top_row_1 {
         position: relative;
         clear: both;
-        width: 340px;
+        width: 80vw;
         margin: 0 auto;
         height: 30px;
 
@@ -358,7 +359,7 @@ header {
         #m_logo {
           position: relative;
           clear: both;
-          width: 340px;
+          width: 80vw;
           height: 80px;
 
           display: flex; /*로고 가운데 정렬 */
@@ -367,8 +368,10 @@ header {
           justify-content: center; 
         }
 
+
         .m_menu_bar_1 {
-          width: 340px;
+          width: 100vw;
+          overflow: hidden;
           height: 40px;
           background-color: rgb(252, 246, 239);
 
@@ -388,15 +391,16 @@ header {
             }
 
         .m_menu_bar_2 {
-          width: 340px;
+          width: 90vw;
           height: 90px;
+          margin: 0 auto;
           margin-top: 15px;
           display: flex;
           flex-flow: row wrap;
         }
 
             .m_menu_bar_2 li {
-              width: 113px;
+              width: 30vw;
               height: 30px;
               line-height: 30px;
               /* background-color: aquamarine; */
@@ -438,10 +442,14 @@ header {
         }
 
         .m_product_box {
-          width: 340px;
-          height: 400px;
+          position: relative;
+          clear:both;
+
+          width: 90vw;
+          height: auto;
           /* background-color: pink; */
           margin: 0 auto;
+          margin-bottom: 3em;
 
           display: flex;
           flex-flow: row nowrap;
@@ -449,25 +457,45 @@ header {
         }
 
           .m_product_row {
+            width: 43vw;
+            /* height: 400px; */
             display: flex;
             flex-flow: column nowrap;
+
           }
-            .m_product_row span {
-              color: #262626;
-            }
+
+          .m_product_row span {
+            color: #262626;
+          }
+
+          /* 리뷰 글씨크기 조정 */
+          .m_product_row > span:last-child {
+            font-size: 0.8em;
+          }
+
+          .m_row_img > a > img {
+            width: 43vw;
+          }
+
 
       .product_name {
-        width: 160px;
+        width: 43vw;
+        height: 3vh;
+
         margin-top: 15px;
-        font-size: 0.9em;
+        font-size: 1em;
         font-weight: 600;
+        /* background-color: red; */
       }
 
       .size_text > span {
-        margin-top: 5px;
-        margin-bottom: 5px;
+        width: 43vw;
+        height: 3vh;
+        /* margin-top: 5px;
+        margin-bottom: 5px; */
         font-size: 9pt;
         color: #ababab;
+        /* background-color: red; */
       }
 
       /* 정가, 할인가, 할인율 포함 */
@@ -478,7 +506,7 @@ header {
         display: flex;
         flex-flow: row nowrap;
         align-items: center;
-        margin-bottom: 5px;
+        margin-bottom: 2px;
       }
 
         .m_price_row span{
