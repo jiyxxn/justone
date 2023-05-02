@@ -322,7 +322,7 @@ header {
       .m_top_row_1 {
         position: relative;
         clear: both;
-        width: 80vw;
+        width: 90vw;
         margin: 0 auto;
         height: 30px;
 
@@ -500,7 +500,7 @@ header {
 
       /* 정가, 할인가, 할인율 포함 */
       .m_price_row {
-        width: 160px;
+        width: 43vw;
         height: 20px;
         
         display: flex;
@@ -509,9 +509,11 @@ header {
         margin-bottom: 2px;
       }
 
-        .m_price_row span{
-          width: 60px;
+        .m_price_row span {
+          width: 55px;
           height: 20px;
+          /* background-color: pink; */
+          text-align: left;
         }
 
         .m_price_row span del {
@@ -524,15 +526,15 @@ header {
             font-weight: 600;
           }
 
-          .discount_text{
-            width: 40px;
+          .discount_text {
+            width: 50px;
             height: 20px;
             line-height: 20px;
             margin-right: 0px; /*불필요한 우측 마진 제거*/
+            margin-left: 3px;
             font-size: 15px;
             font-weight: 600;
             color: rgb(255, 132, 0);
-            top: -3px;
           }
 
 
