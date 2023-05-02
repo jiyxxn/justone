@@ -303,7 +303,9 @@ header {
     display: flex;
     flex-flow: column nowrap;
 
-    width: 450px;
+    width: 100vw;
+    height: auto;
+    overflow: hidden;
   }
 
   header {
