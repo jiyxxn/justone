@@ -197,6 +197,19 @@ header {
       /* background-color: pink; */
     }
 
+    /* new 10% */
+    #row_title_2 {
+      width: 1400px;
+      height: 100px;
+      line-height: 100px;
+      margin: 0 auto;
+      font-size: 30pt;
+      text-align: center;
+      margin-top: 100px;
+      margin-bottom: 50px;
+      /* background-color: pink; */
+    }
+
 
     .section_row_2 {
       width: 1400px;
@@ -267,6 +280,14 @@ header {
         color: #ababab;
       }
 
+  .main_img_2 {
+    width: 1400px;
+    height: 500px;
+    margin: 0 auto;
+    margin-top: 100px;
+    /* margin-bottom: 100px; */
+    background-color: pink;
+  }
       
 
 
@@ -391,6 +412,71 @@ header {
               .m_menu_bar_2 > a:nth-child(4) > li {
                 color: rgb(190, 131, 190);
               }
+
+        
+        .m_title {
+          position: relative;
+          clear: both;
+          width: 450px;
+          height: 100px;
+          line-height: 100px;
+          text-align: center;
+          letter-spacing: 0.1em;
+        }
+
+        .m_product_box {
+          width: 400px;
+          height: 400px;
+          /* background-color: pink; */
+          margin: 0 auto;
+
+          display: flex;
+          flex-flow: row nowrap;
+          justify-content: space-between;
+        }
+
+          .m_product_row {
+            display: flex;
+            flex-flow: column nowrap;
+          }
+            .m_product_row span {
+              color: #262626;
+            }
+
+      .product_name {
+        margin-top: 15px;
+        font-size: 10pt;
+        font-weight: 500;
+      }
+
+      .size_text > span {
+        margin-top: 5px;
+        margin-bottom: 5px;
+        font-size: 9pt;
+        color: #ababab;
+      }
+
+      
+      .price_text {
+        padding-bottom: 5px;
+        font-size: 11pt;
+        font-weight: 600;
+      }
+
+      .discount_text {
+        margin-right: 0px; /*불필요한 우측 마진 제거*/
+        font-size: 11pt;
+        font-weight: 600;
+        color: rgb(255, 132, 0);
+      }
+
+      .m_main_img_2 {
+        position: relative;
+        clear: both;
+        width: 450px;
+        height: 300px;
+        margin-bottom: 30px;
+      }
 
 
 
