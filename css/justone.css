@@ -517,6 +517,7 @@ header {
           display: block;
           width: 55px;
           height: 20px;
+          line-height: 20px;
           font-size: 12px;
           /* background-color: pink; */
         }
@@ -524,8 +525,10 @@ header {
           .price_text {
             width: 70px;
             height: 20px;
+            line-height: 20px;
             font-size: 13px;
             font-weight: 600;
+
           }
 
           .discount_text {
