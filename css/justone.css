@@ -194,6 +194,7 @@ header {
       text-align: center;
       margin-top: 100px;
       margin-bottom: 50px;
+      letter-spacing: 0.1em;
       /* background-color: pink; */
     }
 
@@ -207,6 +208,7 @@ header {
       text-align: center;
       margin-top: 100px;
       margin-bottom: 50px;
+      letter-spacing: 0.1em;
       /* background-color: pink; */
     }
 
@@ -286,8 +288,98 @@ header {
     margin: 0 auto;
     margin-top: 100px;
     /* margin-bottom: 100px; */
-    background-color: pink;
+    /* background-color: pink; */
   }
+
+  .blank_bottom {
+    position: relative;
+    clear: both;
+    width: 1920px;
+    height: 250px;
+  }
+
+  footer {
+    width: 1920px;
+    height: 400px;
+
+    display: flex;
+    flex-flow : row nowrap;
+    align-items: center;
+
+    background-color: #eae5dd;
+  }
+
+    .footer_wrap {
+      width: 1680px;
+      height: 250px;
+      margin: 0 auto;
+      display: flex;
+      flex-flow: row nowrap;
+
+      /* background-color: blue; */
+
+    }
+
+    .footer_wrap > ul {
+      width: 320px;
+
+      display: flex;
+      flex-flow: column nowrap;
+      /* background-color: aqua; */
+    }
+
+      .footer_wrap > ul:nth-child(1), .footer_wrap > ul:nth-child(3), .footer_wrap > ul:nth-child(4) {
+        width: 240px;
+        /* background-color: aquamarine; */
+      }
+
+    .footer_wrap > ul > li:first-child {
+      font-size: 15px;
+      margin-bottom: 20px;
+      font-weight: 600;
+      letter-spacing: 0.1em;
+      color: #3e3e3e;
+    }
+
+    /* 전체 텍스트 설정 */
+    .footer_wrap li {
+      font-family : 'Montserrat', sans-serif;
+      font-size: 12px;
+      margin-bottom: 5px;
+      color:#3f3f3f
+    }
+
+    .footer_name li {
+      margin-bottom: 15px;
+    }
+
+    /* 불필요한 마진 제거 */
+    .footer_wrap li:last-child {
+      margin-bottom: 0px;
+    }
+
+
+      /* 링크 텍스트 색상 설정 */
+      #justone a {
+        color: #262626;
+        margin-bottom: 5px;
+        /* background-color: antiquewhite; */
+      }
+
+    #service_img {
+      display: flex;
+      flex-flow: row nowrap;
+    }
+
+      #service_img > a {
+        margin-right: 7px;
+      }
+
+      /* 불필요한 마진 제거 */
+      #service_img > a:last-child {
+        margin-right: 0px;
+      }
+     
       
 
 
